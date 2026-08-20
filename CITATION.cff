@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "Bhāradvāja Vimāna: The Axis of Convergence"
+message: "If you use this software or the results in it, please cite the paper."
+type: software
+authors:
+  - family-names: Bhāradvāja
+    given-names: Ram
+    affiliation: "Indian Institute of Technology Madras"
+version: 1.0.0
+date-released: 2026-08-20
+license: MIT
+repository-code: "https://github.com/bhardvaja/vimana"
+url: "https://doi.org/10.5281/zenodo.22027073"
+abstract: >-
+  For every p, integer or not, an elementary map multiplies the number of
+  correct digits by exactly p at every step. In the mūla-bheda coordinate
+  mu = (x-y)/(x+y) the map is the monomial mu -> mu^p, the digit law
+  D_n = p^n D_0 is an equality, and the exponents form a group, so the order
+  of convergence becomes a coordinate rather than a property read off after a
+  method is built. This repository is the companion code: the map, the laws
+  as tests, and a script that regenerates every number printed in the paper.
+keywords:
+  - order of convergence
+  - iterative methods
+  - split-complex numbers
+  - arithmetic-geometric mean
+  - Chebyshev polynomials
+  - modular equation
+  - mūla-bheda
+  - Brahmagupta
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22027073
+    description: The paper this code accompanies.
+  - type: doi
+    value: 10.5281/zenodo.20044554
+    description: The predecessor paper, which introduces the mūla-bheda coordinate.
+preferred-citation:
+  type: article
+  title: "Bhāradvāja Vimāna: The Axis of Convergence"
+  authors:
+    - family-names: Bhāradvāja
+      given-names: Ram
+      affiliation: "Indian Institute of Technology Madras"
+  year: 2026
+  doi: 10.5281/zenodo.22027073
+  url: "https://doi.org/10.5281/zenodo.22027073"
